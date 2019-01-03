@@ -17,7 +17,7 @@ class Homepage extends Component {
       <div className="animated fadeIn container-fluid">
       <Link to='/'>Home</Link>
       <Link to='/AboutMe'>About Me</Link>
-      <a href="https://drive.google.com/file/d/1PkXYRCuxPrqiYaJ-7WhPDpXx5LYLK08r/view?usp=sharing" target="_blank">Resume</a>
+      <a href="https://drive.google.com/file/d/1aDa-nB2soQhL_G_dNrkVWNlMAbX8i8wo/view?usp=sharing" target="_blank">Resume</a>
       <Link to='/Portfolio'>Portfolio</Link>
       <Link to='/Contact'>Contact</Link>
       </div>
@@ -31,7 +31,7 @@ class Homepage extends Component {
           <div className="card-body">
             <a className ="normalLink" href="/telur"><h5 className="card-title">Telur</h5></a>
             <p className="card-text">Telur is my first full-on Design project, featuring all steps of a human-centered design process from needfinding and storyboarding to prototyping and launch!</p>
-            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            <p className="card-text"><small className="text-muted">Features: Design process, UX/UI Design</small></p>
           </div>
         </div>
         <div className="card">
@@ -41,17 +41,18 @@ class Homepage extends Component {
           <div className="card-body">
           <a className ="normalLink" href="/dfmint"><h5 className="card-title">Mint Community Redesign</h5></a>
             <p className="card-text">As part of my first Design sprint, my team and I designed a community platform for Intuit's personal financing application, Mint.</p>
-            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            <p className="card-text"><small className="text-muted">Features: Design process, UX/UI Design</small></p>
+
           </div>
         </div>
         <div className="card">
         <a href="/psf">
-          <img className="card-img-top" src={require('../../Assets/PSF/PSF1.png')} alt="Card image cap" />
+          <img className="card-img-top" src={require('../../Assets/PSF/PSF1_thumb.png')} alt="Card image cap" />
         </a>
           <div className="card-body">
             <a className ="normalLink" href="/dfmint">  <h5 className="card-title">Petrosains Science Festival</h5></a>
             <p className="card-text">During my first Summer internship, I led a website development project for a client.</p>
-            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            <p className="card-text"><small className="text-muted">Features: Web Development</small></p>
           </div>
         </div>
       </div>
