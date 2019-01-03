@@ -9,6 +9,7 @@ import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
 import AboutMe from './components/pages/aboutMe';
+import Contact from './components/pages/contact';
 import Telur from './components/pages/telur';
 import DFMint from './components/pages/dfmint';
 import PSF from './components/pages/psf';
@@ -24,6 +25,7 @@ class App extends Component {
       <div className="App">
       <Route exact path='/' component={Homepage} />
       <Route exact path='/AboutMe' component={AboutMe} />
+      <Route exact path='/Contact' component={Contact} />
       <Route exact path='/telur' component={Telur} />
       <Route exact path='/dfmint' component={DFMint} />
       <Route exact path='/psf' component={PSF} />

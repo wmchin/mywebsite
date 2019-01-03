@@ -16,7 +16,7 @@ class AboutMe extends Component {
 <br /><br />
   My interest in the human brain and problem-solving led me first to Computer Science, where I spent 2 years learning how machines imitate computation. After a while, I felt a lack of a certain <i><b>human flair</b></i>, which led me to give Design a try. Here I am today, as a Cognitive Science: Design & Interaction major and enjoying the work I'm doing, the valuable connections I'm making and the new skills I'm learning!
 <br /><br />
-  My hobbies include reading, exploring new places, trying to cook good Malaysian meals and painting.</p>
+In my free time, I like to read, exercise, explore new places, attempt to recreate good home-cooked Malaysian meals and paint.</p>
     </div>
     </div>
     </div>
