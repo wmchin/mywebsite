@@ -1,0 +1,41 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/* Vars */
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #e6e6e6;
+$darkGrey: #333;
+$red: #ff1755;
+$darkBlue: #064472;
+$homeBlue: #f9fbff;
+$goldText: #efac26;
+$lightBlueText: #709dbf;
+$lightGoldText: #f9eacc;
+$lightGreyText: #f7f7f7;
+
+/* Mixins */
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+  -moz-transform: translateY($e);
+  transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+  -moz-transition: $e;
+  transition: $e;
+}
+
+/* Fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: $homeBlue;
+
+}
+
+a {
+  @include transition(0.5s ease-out);
+}
