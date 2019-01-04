@@ -9,9 +9,11 @@ class Homepage extends Component {
     return (
       <div className="home">
       <div className="container-fluid">
-      <img className="myImg" src = {require('../../Assets/Portrait.jpg')} style={{"marginTop":"11%","marginRight":"31%","borderRadius":"50%", "width":"8%", "transform":"scale(1.3,1.3)"}} alt="" />
-      <h1>Hi there. I'm <div className="wye"> Wye</div>. <br/>
-      What brings you here today?</h1>
+      <img className="myImg" src = {require('../../Assets/Portrait.jpg')} style={{"marginTop":"13%","marginRight":"28%","borderRadius":"50%", "width":"8%", "transform":"scale(1.3,1.3)"}} alt="" />
+<div className="introtext">
+      <h1>Hi there. I'm <div className="wye"> Wye</div>. </h1>
+    <h3>  My passion for <div className="wye">service and learning</div> allows me to collaboratively <div className="wye">build meaningful products</div>.
+      How can I help you today?</h3></div>
       </div>
       <nav>
       <div className="animated fadeIn container-fluid">

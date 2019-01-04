@@ -12,11 +12,11 @@ class AboutMe extends Component {
       <div className="bg">
     <img src = {require('../../Assets/Portrait.jpg')} style={{"width":"20%" , "borderRadius":"50%"}} alt="" />
 <br/>
-  <p> My name is Wye, like the question, "Why?", which is pretty coincidental, considering a lot of what I do is ask "Why?". I'm curious about natural human behavior, how the mind works and how humans have grown and evolved into the current societal state we stand at today. Bad designs frustrate me while interesting and innovative designs excite me. I love working collaboratively and my breadth of interests (from research to graphic work to user testing and coding) and bubbly personality allow me to be a useful team player.
+  <p> My name is Wye Mun Chin, but I typically go by <b>Wye</b>. Like the question, "Why?", which is pretty coincidental, considering a lot of what I do is ask "Why?". I'm curious about natural human behavior, how the mind works and how humans have grown and evolved into the current societal state we stand at today.
 <br /><br />
-  My interest in the human brain and problem-solving led me first to Computer Science, where I spent 2 years learning how machines imitate computation. After a while, I felt a lack of a certain <i><b>human flair</b></i>, which led me to give Design a try. Here I am today, as a Cognitive Science: Design & Interaction major and enjoying the work I'm doing, the valuable connections I'm making and the new skills I'm learning!
+  My <b>interest in the human brain and problem-solving</b> led me first to <b>Computer Science</b>, where I spent 2 years learning how machines imitate computation. After a while, I felt a lack of a certain <i><b>human flair</b></i>, which led me to give Design a try. Immediately I knew that I had found that intersection, <b>the sweet spot</b> between not only what I'm good at and what I like to do, but also with how I can help serve and impact others. Now as a <b>Cognitive Science: Design & Interaction</b> major at the University of California San Diego, I enjoy the work I'm doing, the valuable connections I'm making and the new skills I'm learning!
 <br /><br />
-In my free time, I like to read, exercise, explore new places, attempt to recreate good home-cooked Malaysian meals and paint.</p>
+In my free time, I like to read, exercise, explore new places, attempt to recreate good home-cooked Malaysian meals and paint. I also enjoy tutoring and learning new skills, proudly coding this website on my own using React.js, Gulp and SCSS.</p>
     </div>
     </div>
     </div>

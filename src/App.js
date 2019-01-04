@@ -14,6 +14,7 @@ import Telur from './components/pages/telur';
 import DFMint from './components/pages/dfmint';
 import PSF from './components/pages/psf';
 import Portfolio from './components/pages/Portfolio';
+import Random from './components/pages/random';
 
 
 import './Assets/css/default.min.css';
@@ -30,6 +31,7 @@ class App extends Component {
       <Route exact path='/dfmint' component={DFMint} />
       <Route exact path='/psf' component={PSF} />
       <Route exact path='/portfolio' component={Portfolio} />
+      <Route exact path='/random' component={Random} />
 
       </div>
       </Router>
