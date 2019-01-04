@@ -10,6 +10,8 @@ class Portfolio extends Component {
           <h1 className="animated fadeInUp"> My Portfolio</h1>
       <div className="myCard">
       <div className="homeCards">
+      <div class="row">
+  <div class="col-sm-13">
             <div className="card-deck">
               <div className="card">
             <a href="/telur">
@@ -44,6 +46,30 @@ class Portfolio extends Component {
 
                 </div>
               </div>
+
+</div></div>
+
+<div class="row">
+  <div class="col-sm-10">
+            </div>
+
+              <div className="card" style={{"width":"30.1%", "marginLeft":"15px", "marginTop":"1.5%"}}>
+            <a href="/random">
+            <img className="card-img-top" src = {require('../../Assets/telur-bigrect.png')} alt="Card image cap" />
+            </a>
+                <div className="card-body">
+                  <a className ="normalLink" href="/random"><h5 className="card-title">Others: Logos/Graphics</h5></a>
+                  <p className="card-text">Some of my random side works include creating logos for friends or graphics for personal interest.</p>
+                  <p className="card-text"><small className="text-muted">Features: Graphic Design</small></p>
+
+                </div>
+
+
+</div></div>
+
+
+
+
             </div>
 
       </div>
