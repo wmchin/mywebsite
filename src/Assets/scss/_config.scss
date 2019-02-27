@@ -13,6 +13,8 @@ $goldText: #efac26;
 $lightBlueText: #709dbf;
 $lightGoldText: #f9eacc;
 $lightGreyText: #f7f7f7;
+$purpleBlue: #3C66B8;
+$blueGreyText: #4e6d84;
 
 /* Mixins */
 @mixin translateY($e) {
@@ -29,13 +31,17 @@ $lightGreyText: #f7f7f7;
 
 /* Fonts */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
   margin: 0;
   padding: 0;
-  background: $homeBlue;
-
+  background: $white;
+  color: $blueGreyText;
 }
 
 a {
   @include transition(0.5s ease-out);
+  font-family: 'Proxima Nova', sans-serif;
+
 }

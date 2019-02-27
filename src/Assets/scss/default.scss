@@ -4,7 +4,7 @@ header {
   position: relative;
   display: block;
   width: 100%;
-  background: $homeBlue;
+  background: $white;
 
   nav ul {
     list-style-type: none;
@@ -17,7 +17,7 @@ header {
     }
 
     a {
-      color: $lightBlueText;
+      color: $purpleBlue;
       font-size: 1.1em;
     }
     a:hover {
@@ -30,6 +30,7 @@ header {
 .home {
   width: 100%;
   height: 100%;
+  padding-bottom: 2%;
 
 .introtext {
   padding: 10% 8% 0% 20%;
@@ -38,20 +39,21 @@ header {
 }
 
   h1 {
-    color: $darkBlue;
+    color: $purpleBlue;
     line-height:1.3;
-    font-family: Roboto;
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: normal;
 
 
     .wye {
+    font-family: 'Proxima Nova', sans-serif;
     color: $goldText;
     display: inline;
     }
   }
 
   h3 {
-    color: $darkBlue;
+    color: $blueGreyText;
     font-family: Roboto;
     font-weight:lighter;
     .wye {
@@ -59,6 +61,7 @@ header {
     display: inline;
     }
   }
+}
 
   .myImg {
     float: right;
@@ -76,7 +79,7 @@ header {
     height:100%;
 
     a {
-      color: $lightBlueText;
+      color: $purpleBlue;
       padding-right: 35px;
       font-size:1.05em;
     }
@@ -92,13 +95,15 @@ header {
     margin-left:5%;
     margin-right:5%;
     margin-top: 3%;
-      .card-deck .card .card-body .card-text p {
-        color:#336387;
-      }
+    .card-title {
+      color: $darkBlue;
+      font-family: 'Futura';
+    }
+    .card-body p {
+      color: $darkGrey;
+      font-weight: 300;
     }
   }
-
-
 
 .border {
   border-radius: .75rem;
@@ -107,22 +112,75 @@ header {
 
 .myCard {
 //  background-color: $lightGrey;
+
+h6 {
+  .role {
+  font-family: 'Proxima-Nova', sans-serif;
+  font-weight: 600;
+  display: inline;
+  }
+  font-weight:300;
+  width: 90%;
+  margin-left:5%;
+}
   border-radius: 10px;
-  box-shadow: 8px 10px 8px #888888;
   border-style: solid;
   border-color: #9bbef7;
-  border-width: 5px 5px 5px 3px;
+  border-width: 3px 3px 3px 3px;
   margin-left: auto;
   margin-right:auto;
-  width: 65%;
+  width: 72%;
   padding:2% 2% 1% 2%;
 
   b {
     color: $goldText;
   }
 
+  h4 {
+    font-weight:600;
+    text-align: center;
+  }
+
+  p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  .container .row {
+      .col-sm
+      {
+        display: inline;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        color: $darkGrey;
+        text-align: center;
+        margin-bottom:-5%;
+
+        h6 {
+          text-align: center;
+          padding-top:3%;
+        }
+
+      }
+
+      .col {
+        .caption {
+                  text-align:center;
+                  font-style: italic;
+                  color: #888888;
+            }
+          }
+    }
   .normalLink{
     color: $black;
+  }
+
+  .carousel {
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
@@ -160,7 +218,9 @@ header {
   }
 
   p {
-    color: #336387;
+    color: $darkGrey;
+    font-weight: 300;
+
   }
 
 
