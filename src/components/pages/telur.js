@@ -137,15 +137,9 @@ We developed a testing protocol, so that we could be standardized in our testing
 <h5 id="redesign">Redesign</h5>
 <p>
 With results from user testing, we found that <b>our general navigation, and the “Lay” page were not very intuitive</b> and that there was <b>a lot of room for guesswork</b> on the participant’s part. We realized we did not provide much help or guidance to new users and that it may be a lot of mental workload to expect them to understand everything and be able to navigate the app smoothly without this support.
-<br /><br />
-One major problem was that we had <b>a very confusing “Lay” page</b>, because:
-<ol><li>We split it up into a two-step process, where you write your message first.</li>
-<li>We had two tab bars - 'Send' and 'Next', with which you could move on to the second step of choosing the options such as Recipient and Scheduled Delay before finishing it off and sending it.</li>
-</ol>
-Many users did not know what to expect upon pressing “Next” or “Send” or did not even know which one they should press to move on.
 <br />
 <br />
-Therefore, seeing as how this was a key interaction in our application but that it had some pretty critical flaws, we decided to redesign this page of our application. We <b>consolidated the messaging process</b> into a one-page process, such that all the necessary details could be completed and filled up in one page. There would be much less guesswork on the part of the user and resembles more of an email-like structure which people are familiar and comfortable with. We also added a <b>confirmation page</b> before sending the message so that we can make sure that the user is completely aware and informed of what they’re about to do.
+Therefore, seeing as how the "Lay" feature was a key interaction in our application but that it had some pretty critical flaws, we decided to redesign this page of our application. We <b>consolidated the messaging process</b> into a one-page process, such that all the necessary details could be completed and filled up in one page. There would be much less guesswork on the part of the user and resembles more of an email-like structure which people are familiar and comfortable with. We also added a <b>confirmation page</b> before sending the message so that we can make sure that the user is completely aware and informed of what they’re about to do.
 <br />
 <br /></p>
 <h6>Redesign of Lay Page</h6>
@@ -168,16 +162,12 @@ We did <b>comparative testing</b> on new users with the Original and Redesigned 
 <p>
 <b>Highlights</b>:
 <ul>
-<li>Working on something that I truly cared about and that I felt was applicable to myself and the people around me.
-</li>
-<li>Learning about people’s typically unobserved natural habits. </li>
 <li>Being able to try out a variety of things - videomaking, storyboarding, prototyping, coding, observing and testing.
 </li>
 <li>Gaining experience with professional software in a short amount of time (Illustrator, Sketch).
 </li><li>High amount of interaction with people (teammates, audience feedback, peers and testers, mentors).</li></ul>
 <b>Key Takeaways</b>:
 <ul>
-<li>Important not to lose track of why you’re creating in the first place. </li>
 <li>Important to stay motivated and on track. </li>
 <li>Important to continuously seek improvements and not feel complacent. </li>
 <li>Important to see how your creation fares in the real world.</li>

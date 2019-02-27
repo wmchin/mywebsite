@@ -19,7 +19,7 @@ class Homepage extends Component {
       <div className="animated fadeIn container-fluid">
       <Link to='/'>Home</Link>
       <Link to='/AboutMe'>About Me</Link>
-      <a href="https://drive.google.com/file/d/1aDa-nB2soQhL_G_dNrkVWNlMAbX8i8wo/view?usp=sharing" target="_blank">Resume</a>
+      <a href="https://drive.google.com/open?id=1Zo7W4aB_Cl74hLr_9FZT_TImks0GIirI" target="_blank">Resume</a>
       <Link to='/Portfolio'>Portfolio</Link>
       <Link to='/Contact'>Contact</Link>
       </div>
