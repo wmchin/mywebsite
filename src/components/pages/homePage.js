@@ -24,21 +24,37 @@ class Homepage extends Component {
       <Link to='/Contact'>Contact</Link>
       </div>
       </nav>
+
 <div className="homeCards">
-      <div className="card-deck">
+<div className="row">
+<div className="col">
+<div className="card">
+<a href="/ucsd">
+  <img className="card-img-top" src={require('../../Assets/UCSD/UCSDMockups.png')} alt="Card image cap" />
+</a>
+  <div className="card-body">
+    <a className ="normalLink" href="/ucsd">  <h5 className="card-title">UC San Diego App Redesign</h5></a>
+    <p className="card-text">Redesigned the UC San Diego mobile application as a class final project and won grand prize for People's Choice Awards.</p>
+    <p className="card-text"><small className="text-muted">Features: Design process, UX/UI Design</small></p>
+  </div>
+  </div>
+</div>
+      <div className="col">
         <div className="card">
       <a href="/telur">
-      <img className="card-img-top" src = {require('../../Assets/telur-bigrect.png')} alt="Card image cap" />
+      <img className="card-img-top" src = {require('../../Assets/TelurMockPic')} alt="Card image cap" />
       </a>
           <div className="card-body">
             <a className ="normalLink" href="/telur"><h5 className="card-title">Telur</h5></a>
-            <p className="card-text">Telur is my first full-on Design project, featuring all steps of a human-centered design process from needfinding and storyboarding to prototyping and launch!</p>
+            <p className="card-text">Telur is my first full-on Design project, featuring steps of a human-centered design process from needfinding and storyboarding to prototyping and launch!</p>
             <p className="card-text"><small className="text-muted">Features: Design process, UX/UI Design</small></p>
           </div>
         </div>
+        </div>
+      <div className="col">
         <div className="card">
         <a href="/dfmint">
-          <img className="card-img-top" src={require('../../Assets/MintRect.png')} alt="Card image cap" />
+          <img className="card-img-top" src={require('../../Assets/MintMockup2.png')} alt="Card image cap" />
           </a>
           <div className="card-body">
           <a className ="normalLink" href="/dfmint"><h5 className="card-title">Mint Community Redesign</h5></a>
@@ -47,19 +63,28 @@ class Homepage extends Component {
 
           </div>
         </div>
+        </div>
+
+        <div class="w-100"></div>
+        <br/>
+        <div className="col-md-4">
         <div className="card">
         <a href="/psf">
           <img className="card-img-top" src={require('../../Assets/PSF/PSF1_thumb.png')} alt="Card image cap" />
         </a>
           <div className="card-body">
-            <a className ="normalLink" href="/dfmint">  <h5 className="card-title">Petrosains Science Festival</h5></a>
+            <a className ="normalLink" href="/dfmint">  <h5 className="card-title">Petrosains Science Festival Web Design</h5></a>
             <p className="card-text">During my first Summer internship, I led a website development project for a client.</p>
             <p className="card-text"><small className="text-muted">Features: Web Development</small></p>
           </div>
+          </div>
         </div>
-      </div>
+        </div>
+
 
 </div>
+
+
       </div>
     );
   }
